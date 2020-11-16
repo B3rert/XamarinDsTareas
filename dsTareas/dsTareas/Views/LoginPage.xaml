@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dsTareas.Views.LoginPage"
+             NavigationPage.HasNavigationBar="False"
+              BackgroundColor="{DynamicResource PageBackgroundColor}">
+    
+    <ContentPage.Content>
+        <Grid>
+            <ScrollView>
+                <StackLayout  Padding="20,50,20,20">
+                    <Image Source="logo_demosoft.png"
+                           WidthRequest="250"
+                           HeightRequest="210"/>
+                    <ActivityIndicator
+                        x:Name="WaitActivity"
+                        HorizontalOptions="Center"/>
+                    <Entry 
+                        x:Name="UserEntry"            
+                        Placeholder="Usuario"/>
+                    <Entry                    
+                        x:Name="PassEntry"            
+                        Placeholder="Contraseña"           
+                        IsPassword="True"/>
+                    
+                    <Button
+                        x:Name="LoginBtn"
+                        Margin="0,10,0,10"
+                        Grid.Row="2"
+                        Text="Iniciar sesión"
+                        Style="{StaticResource ButtonStyle}" 
+                        Clicked="LoginBtn_Clicked"/>
+                    
+                    <StackLayout Orientation="Horizontal">
+                        <Label
+                            Padding="0,7,0,0"
+                            Text="Recordar mis datos"
+                            HorizontalOptions="EndAndExpand"/>
+                        <CheckBox
+                            x:Name="DatosCheck"
+                            IsChecked="True"
+                            Color="DarkOrange"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

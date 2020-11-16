@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dsTareas.Views.SupportPage"
+             IconImageSource="llamada_icon.png"
+             Title="Soporte">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20,20,20,10">
+                <Label Text="Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo Contenido aquí, contenido aquí. Estos textos hacen parecerlo un español que se puede leer." FontSize="16" ></Label>
+                <Label Text="Telefonos." FontSize="16" Padding="0,20,0,0"></Label>
+                <Label Text="+502 54548787." FontSize="16"></Label>
+                <Label Text="+502 84849595." FontSize="16" Padding="0,0,0,20"></Label>
+                <Button
+                        Margin="0,10,0,10"
+                        Grid.Row="2"
+                        Text="Cerrar sesión"
+                        Style="{StaticResource ButtonStyle}" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
