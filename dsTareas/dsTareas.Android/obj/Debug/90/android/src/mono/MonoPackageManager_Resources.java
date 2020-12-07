@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"dsTareas.Android.dll",
 		"dsTareas.dll",
 		"FormsViewGroup.dll",
+		"Plugin.FilePicker.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

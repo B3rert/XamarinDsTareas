@@ -23,11 +23,10 @@
                 <Entry Placeholder="Detalle del incidente *" 
                        FontSize="15"/>
                 <StackLayout Orientation="Horizontal" FlowDirection="RightToLeft">
-                    <Button Text="Adjuntar archivos" FontSize="14"></Button>
+                    <Button Text="Examinar" FontSize="14" Clicked="Button_Clicked" HorizontalOptions="Center"  
+               VerticalOptions="Center"/>
                 </StackLayout>
-                <Label 
-                        Text="C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsXamarin\dsTareasXamarin\dsTareasXamarin\dsTareasXamarin.Android\Resources\drawable"
-                        Padding="0,14,10,0"/>
+                <Label Text="File Is :" x:Name="lbl" Padding="0,14,10,0"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

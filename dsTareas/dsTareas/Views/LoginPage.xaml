@@ -17,9 +17,11 @@
                         HorizontalOptions="Center"/>
                     <Entry 
                         x:Name="UserEntry"            
-                        Placeholder="Usuario"/>
+                        Placeholder="Usuario"
+                        ClearButtonVisibility="WhileEditing"/>
                     <Entry                    
-                        x:Name="PassEntry"            
+                        x:Name="PassEntry"     
+                        ClearButtonVisibility="WhileEditing"
                         Placeholder="Contraseña"           
                         IsPassword="True"/>
                     
