@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "n6GCTgKEXUtglp+D4qvLElKquci8m7Mr66kMpS220ACjnGide/k1KrSpkbJh7/YUeZYVkr+1RgdBIG+T9ZXOvQ==",
+  "dgSpecHash": "drUShAiioE5eUtbdHVpxtR3eussMhlURQBsSEi/ghrih1/vNA04rTPMGw4BzCKKgYnGqYjDsKpBxh0Ig4giPMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rober\\OneDrive\\Desktop\\Proyecto_ds\\dsTareas\\dsTareas\\dsTareas.iOS\\dsTareas.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\xamarin.plugin.filepicker\\2.1.41\\xamarin.plugin.filepicker.2.1.41.nupkg.sha512"
   ],
   "logs": []
 }
