@@ -16,5 +16,10 @@ namespace dsTareas.Views
         {
             InitializeComponent();
         }
+
+        private void ImageButton_Clicked()
+        {
+
+        }
     }
 }

@@ -21,11 +21,18 @@
                        FontSize="15"/>
                 <Entry Placeholder="Detalle del incidente *" 
                        FontSize="15"/>
-                <StackLayout Orientation="Horizontal" FlowDirection="RightToLeft">
-                    <Button Text="Examinar" FontSize="14" Clicked="Button_Clicked" HorizontalOptions="Center"  
-               VerticalOptions="Center"/>
+                <StackLayout Orientation="Horizontal" 
+                             FlowDirection="RightToLeft">
+                    <Button Text="Elegir archivo" 
+                            
+                            HorizontalOptions="Start" 
+                            Clicked="Button_Clicked"/>
+                    <Label Text="Archivo adjunto" 
+                           x:Name="lbl2"
+                           VerticalOptions="Center"
+                           Padding="0,0,15,0"
+                           FontSize="16"/>
                 </StackLayout>
-                <Label Text="File Is :" x:Name="lbl" Padding="0,14,10,0"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

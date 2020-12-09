@@ -954,3 +954,4 @@ C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas.Android\o
 C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas.Android\obj\Debug\90\android\assets\Plugin.FilePicker.pdb
 C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas.Android\obj\Debug\90\android\src\crc64424a8adc5a1fbe28\FilePickerActivity.java
 C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas.Android\obj\Debug\90\res\drawable\buscar_icon.png
+C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas.Android\obj\Debug\90\res\drawable\flecha_icon.png

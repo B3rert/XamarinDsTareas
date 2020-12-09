@@ -12,8 +12,8 @@ namespace dsTareas.Views
             InitializeComponent();
 
             Children.Add(new ListPage());
-            //Children.Add(new NewTaskUserPage());
-            Children.Add(new NewTaskAdminPage());
+            Children.Add(new NewTaskUserPage());
+            //Children.Add(new NewTaskAdminPage());
             Children.Add(new SupportPage());
 
         }

@@ -26,7 +26,7 @@ namespace dsTareas.Views
 
             if (file != null)
             {
-                lbl.Text = file.FileName;
+              //  lbl.Text = file.FileName;
             }
         }
     }
