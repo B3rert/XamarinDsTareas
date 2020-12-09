@@ -10,13 +10,19 @@
                 <Label Text="Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo Contenido aquí, contenido aquí. Estos textos hacen parecerlo un español que se puede leer." FontSize="16" ></Label>
                 <Label Text="Telefonos." FontSize="16" Padding="0,20,0,0"></Label>
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="50602980"  x:Name="txtNumeroA" Padding="0,10,0,0" FontSize="20"/>
-                    <Button Text="Llamar" Clicked="Button_Clicked2"/>
+                    <Button Text="+502 878 5454" 
+                            Clicked="btnLlamar1"
+                            HorizontalOptions="CenterAndExpand"
+                            BackgroundColor="Transparent"
+                            FontSize="20"/>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="59906632"  x:Name="txtNumeroB" Padding="0,10,0,0" FontSize="20"/>
-                    <Button Text="Llamar" Clicked="Button_Clicked3" />
+                    <Button Text="+502 2454 5454" 
+                            Clicked="btnLlamar2" 
+                            HorizontalOptions="CenterAndExpand"
+                            BackgroundColor="Transparent"
+                            FontSize="20"/>
                 </StackLayout>
                 <Button
                         Margin="0,10,0,10"

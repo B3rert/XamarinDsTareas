@@ -4,6 +4,11 @@
              x:Class="dsTareas.Views.ListPage"
              IconImageSource="lista_icon.png"
              Title="Tickets">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Buscar"/>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"

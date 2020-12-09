@@ -1,90 +1,173 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="dsTareas.Views.NewTaskAdminPage">
+             x:Class="dsTareas.Views.NewTaskAdminPage"
+             Title="Nuevo Ticket"
+             IconImageSource="mas_icon.png">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Guardar" />
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
         <ScrollView>
+            
             <StackLayout Padding="20,20,20,20">
-                <Entry Placeholder="Titulo Tarea" FontSize="16"/>
-                <Entry Placeholder="Buscar Tarea ID" FontSize="16"/>
+                <Entry Placeholder="Titulo de Tarea" 
+                       FontSize="16"
+                        ClearButtonVisibility="WhileEditing" 
+                       HeightRequest="55"
+                       Keyboard="Chat"/>
 
-                <StackLayout Orientation="Horizontal">
-                    <DatePicker/>
-                    <TimePicker/>
-                </StackLayout>
+                <StackLayout FlowDirection="LeftToRight" 
+                             Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal">
+                        <DatePicker/>
+                        <TimePicker/>
+                    </StackLayout>
 
-                <Label Text="A"/>
+                    <Label HorizontalOptions="CenterAndExpand"/>
 
-                <StackLayout Orientation="Horizontal">
-                    <DatePicker/>
-                    <TimePicker/>
+                    <StackLayout Orientation="Horizontal">
+                        <DatePicker/>
+                        <TimePicker/>
+                    </StackLayout>
                 </StackLayout>
 
                 <Entry Placeholder="Observacion" 
                        ClearButtonVisibility="WhileEditing" 
-                       FontSize="16"/>
-                <Picker HorizontalOptions="StartAndExpand" Title="Tipo de empresa  ▼">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Picker HorizontalOptions="StartAndExpand" Title="Nivel de Prioridad  ▼">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Picker HorizontalOptions="StartAndExpand" Title="Estado Tarea  ▼">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                    </Picker.Items>
-                </Picker>
+                       FontSize="16"
+                       HeightRequest="55"
+                       Keyboard="Chat"/>
 
-                <StackLayout Orientation="Horizontal">
-                    <Entry Placeholder="Tiempo Estimado"/>
-                    <Picker HorizontalOptions="Start" Title="dias  ▼">
+                <StackLayout Orientation="Horizontal" FlowDirection="LeftToRight">
+                    <Label Text="Tipo de Tarea"
+                           Margin="0,16,5,0"
+                            FontSize="16"/>
+                    <Picker HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>*SOPORTE*</x:String>
+                            <x:String>Cita</x:String>
+                            <x:String>Correo Electronico</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                             FlowDirection="LeftToRight">
+                    <Label Text="Nivel de Prioridad"
+                            Margin="0,16,5,0"
+                            FontSize="16"/>
+                    <Picker HorizontalOptions="FillAndExpand">
+                        <Picker.Items>
+                            <x:String>Alto</x:String>
+                            <x:String>Bajo</x:String>
+                            <x:String>Normal</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                             FlowDirection="LeftToRight">
+                    <Label Text="Estado Tarea"
+                           Margin="0,16,5,0"
+                            FontSize="16"/>
+                    <Picker HorizontalOptions="FillAndExpand" >
+                        <Picker.Items>
+                            <x:String>Activo</x:String>
+                            <x:String>Cerrado</x:String>
+                            <x:String>Atrasado</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal" 
+                             FlowDirection="RightToLeft">
+                    <Picker HorizontalOptions="FillAndExpand">
                         <Picker.Items>
                             <x:String>meses</x:String>
                             <x:String>semanas</x:String>
                             <x:String>años</x:String>
                         </Picker.Items>
                     </Picker>
+                    <Entry WidthRequest="75" 
+                           Keyboard="Numeric"/>
+                    <Label Text="Tiempo Estimado" 
+                           Margin="0,16,5,0"  
+                           FontSize="16"/>
                 </StackLayout>
 
-                <StackLayout Orientation="Horizontal" FlowDirection="LeftToRight">
-                    <Label Text="File Is :" x:Name="lbl" Padding="0,14,170,0"/>
-                    <Button Text="Examinar" FontSize="14" HorizontalOptions="Start" Clicked="Button_Clicked"/>
+                <StackLayout Orientation="Horizontal" 
+                             FlowDirection="RightToLeft">
+                    <Button Text="Elegir archivo" 
+                            
+                            HorizontalOptions="Start" 
+                            Clicked="Button_Clicked"/>
+                    <Label Text="Archivo adjunto" 
+                           x:Name="lbl"
+                           VerticalOptions="Center"
+                           Padding="0,0,15,0"
+                           FontSize="16"/>
                 </StackLayout>
 
-                <Picker HorizontalOptions="StartAndExpand" Title="Notificaciones ▼">
-                    <Picker.Items>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                    </Picker.Items>
-                </Picker>
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                        <Label FontSize="16" 
+                               Text="Notificaciones"
+                               Margin="0,16,5,0"/>
+                        <Picker HorizontalOptions="FillAndExpand"
+                                WidthRequest="70">
+                            <Picker.Items>
+                                <x:String>Correo</x:String>
+                            </Picker.Items>
+                        </Picker>
+                        <Entry Text="10"
+                               Keyboard="Numeric"
+                                ClearButtonVisibility="WhileEditing" 
+                               WidthRequest="60"/>
+                        <Picker HorizontalOptions="FillAndExpand">
+                            <Picker.Items>
+                                <x:String>Minutos</x:String>
+                                <x:String>Semanas</x:String>
+                            </Picker.Items>
+                        </Picker>
+                  
+                    </StackLayout>
 
-                <StackLayout Orientation="Horizontal">
-                    <Entry Placeholder="num.."/>
-                    <Picker HorizontalOptions="StartAndExpand" Title="Tiempo ▼">
-                        <Picker.Items>
-                            <x:String>1</x:String>
-                            <x:String>2</x:String>
-                        </Picker.Items>
-                    </Picker>
-                    <Button Text="Añadir"/>
+                    <Button Text="Añadir Notificacion"/>
                 </StackLayout>
-
+               
                 <Entry Placeholder="Tarea Padre ID"/>
-                <Entry Placeholder="Referencia"/>
 
-                <StackLayout Orientation="Horizontal">
-                <Button Text="Buscar"/>
-                <Button Text="Limpiar"/>
+
+                <StackLayout Orientation="Horizontal" 
+                             FlowDirection="LeftToRight">
+                    <Entry Placeholder="Referencia"
+                            ClearButtonVisibility="WhileEditing" 
+                           HorizontalOptions="FillAndExpand"/>
+                    
+                    <ImageButton Source="buscar_icon.png"
+                                 BackgroundColor="Transparent"
+                                 Padding="10,0,0,0"/>
+                </StackLayout>
+
+                <Entry Placeholder="Escriba una respuesta *"
+                        ClearButtonVisibility="WhileEditing" 
+                       HeightRequest="55"
+                       Keyboard="Chat"/>
+                
+                <StackLayout Orientation="Horizontal" 
+                             FlowDirection="RightToLeft">
+                    <Button Text="Elegir archivo" 
+                            
+                            HorizontalOptions="Start" 
+                            Clicked="Button_Clicked"/>
+                    <Label Text="Archivo adjunto" 
+                           x:Name="lbl2"
+                           VerticalOptions="Center"
+                           Padding="0,0,15,0"
+                           FontSize="16"/>
                 </StackLayout>
             </StackLayout>
         </ScrollView>

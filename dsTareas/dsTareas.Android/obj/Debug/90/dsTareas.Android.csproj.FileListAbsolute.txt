@@ -950,3 +950,7 @@ C:\Users\hugop\OneDrive\Escritorio\DsTareasN\XamarinDsTareas\dsTareas\dsTareas.A
 C:\Users\hugop\OneDrive\Escritorio\DsTareasN\XamarinDsTareas\dsTareas\dsTareas.Android\obj\Debug\90\lp\35\jl\files.cache
 C:\Users\hugop\OneDrive\Escritorio\DsTareasN\XamarinDsTareas\dsTareas\dsTareas.Android\obj\Debug\90\lp\39\jl\files.cache
 C:\Users\hugop\OneDrive\Escritorio\DsTareasN\XamarinDsTareas\dsTareas\dsTareas.Android\obj\Debug\90\lp\40\jl\files.cache
+C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas.Android\obj\Debug\90\android\assets\Plugin.FilePicker.dll
+C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas.Android\obj\Debug\90\android\assets\Plugin.FilePicker.pdb
+C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas.Android\obj\Debug\90\android\src\crc64424a8adc5a1fbe28\FilePickerActivity.java
+C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas.Android\obj\Debug\90\res\drawable\buscar_icon.png

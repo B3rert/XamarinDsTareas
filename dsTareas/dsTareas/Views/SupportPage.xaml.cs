@@ -18,11 +18,11 @@ namespace dsTareas.Views
             InitializeComponent();
         }
 
-        private void Button_Clicked2(object sender, EventArgs e)
+        private void btnLlamar1(object sender, EventArgs e)
         {
             try
             {
-                PhoneDialer.Open(txtNumeroA.Text);
+                PhoneDialer.Open("+502 878 5454");
             }
             catch (Exception ex)
             {
@@ -30,11 +30,11 @@ namespace dsTareas.Views
             }
         }
 
-        private void Button_Clicked3(object sender, EventArgs e)
+        private void btnLlamar2(object sender, EventArgs e)
         {
             try
             {
-                PhoneDialer.Open(txtNumeroB.Text);
+                PhoneDialer.Open("+502 2454 5454");
             }
             catch (Exception ex)
             {
