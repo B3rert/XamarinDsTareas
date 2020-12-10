@@ -6,7 +6,8 @@
              Title="Tickets">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="buscar_icon.png"></ToolbarItem>
+        <ToolbarItem Text="Todos los estados"></ToolbarItem>
+        <ToolbarItem IconImageSource="buscar_icon.png" Clicked="ToolbarItem_Clicked"></ToolbarItem>
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>

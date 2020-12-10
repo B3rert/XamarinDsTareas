@@ -17,8 +17,16 @@ namespace dsTareas.Views
             InitializeComponent();
         }
 
-        private void ImageButton_Clicked()
+        async private  void ImageButton_Clicked(object sender, EventArgs e)
         {
+            await Navigation.PushAsync(new DetailTaskUserPage());
+
+
+        }
+
+        async private void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchBarPage());
 
         }
     }

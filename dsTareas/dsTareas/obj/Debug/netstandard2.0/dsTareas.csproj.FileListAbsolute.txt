@@ -42,3 +42,5 @@ C:\Users\hugop\OneDrive\Escritorio\DsTareasN\XamarinDsTareas\dsTareas\dsTareas\o
 C:\Users\hugop\OneDrive\Escritorio\DsTareasN\XamarinDsTareas\dsTareas\dsTareas\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\hugop\OneDrive\Escritorio\DsTareasN\XamarinDsTareas\dsTareas\dsTareas\obj\Debug\netstandard2.0\Views\NewTaskAdminPage.xaml.g.cs
 C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas\obj\Debug\netstandard2.0\Views\NewTaskAdminPage.xaml.g.cs
+C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas\obj\Debug\netstandard2.0\Views\DetailTaskUserPage.xaml.g.cs
+C:\Users\rober\OneDrive\Desktop\Proyecto_ds\dsTareas\dsTareas\dsTareas\obj\Debug\netstandard2.0\Views\SearchBarPage.xaml.g.cs

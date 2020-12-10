@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dsTareas.Views.SearchBarPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar x:Name="SearchTareasBar"
+                       TextChanged="SearchTareasBar_TextChanged"
+                       BackgroundColor="{DynamicResource NavigationBarColor}"/>
+            <ScrollView>
+                <StackLayout >
+                    <StackLayout Padding="20,20,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                 HorizontalOptions="EndAndExpand"
+                                />
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" 
+                         HeightRequest="1" 
+                         Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+                    <StackLayout Padding="20,5,20,10">
+                        <Label Text="Tarea Prueba"/>
+                        <StackLayout Orientation="Horizontal"
+                                 FlowDirection="LeftToRight">
+                            <Label Text="26596 - Activa"/>
+                            <ImageButton Source="flecha_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 WidthRequest="15"
+                                     HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="12/12/12 12:12:12 p.m."/>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="{DynamicResource NavigationBarColor}"/>
+
+
+
+                </StackLayout>
+
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

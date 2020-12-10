@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dsTareas.Views.DetailTaskUserPage"
+             Title="Resumen del ticket">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Padding="20,20,20,5">
+                    <Label Text="Ticket: 45487" FontSize="18" FontAttributes="Bold"/>
+                    <Label Text="Asunto: Tarea Prueba" FontSize="18" FontAttributes="Bold"/>
+                </StackLayout>
+                <BoxView HorizontalOptions="FillAndExpand" 
+                         HeightRequest="1" 
+                         Color="{DynamicResource NavigationBarColor}"/>
+
+                <StackLayout Padding="20,10,20,5">
+                    <Label Text="Ticket Estado: 45487" FontSize="16" />
+                    <Label Text="Nombre: Usuario Prueba" FontSize="16"/>
+                    <Label Text="Departamento: Soporte BA" FontSize="16"/>
+                    <Label Text="Correo Electronico: Probandodiseño@outlook.com" FontSize="16"/>
+                    <Label Text="Telefono: " FontSize="16"/>
+                    <Label Text="Creado: 12/12/2020 3:19:00 p.m." FontSize="16"/>
+                </StackLayout>
+                <BoxView HorizontalOptions="FillAndExpand" 
+                         HeightRequest="1" 
+                         Color="{DynamicResource NavigationBarColor}"/>
+
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" 
+                             FlowDirection="RightToLeft"
+                             Padding="20,10,0,0">
+                        <ImageButton Source="flecha_abajo_icon.png" 
+                                 BackgroundColor="Transparent"
+                                 VerticalOptions="CenterAndExpand"
+                                 WidthRequest="20"/>
+                        <Label Text="Último comentario"
+                           FontSize="16"/>
+                    </StackLayout>
+
+                    <StackLayout Padding="20,10,20,10">
+                        <Label Text="05/01/2020 12:40:00 p.m." FontSize="15" FontAttributes="Bold"/>
+                        <Label Text="Usuario prueba" FontSize="15" FontAttributes="Bold"/>
+                        <Label Text="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original." />
+                        <StackLayout Orientation="Horizontal" FlowDirection="LeftToRight" Padding="0,5,0,0">
+                            <ImageButton Source="archivo_icon.png" 
+                                         BackgroundColor="Transparent" 
+                                         HorizontalOptions="Start"
+                                         HeightRequest="20"/>
+                            <Label Text="484wdewhdiuwhd.pdf" VerticalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" 
+                         HeightRequest="1" 
+                         Color="{DynamicResource NavigationBarColor}"/>
+                </StackLayout>
+
+                <StackLayout Padding="20,0,20,0">
+                    <Entry Placeholder="Escriba una respuesta *"
+                        ClearButtonVisibility="WhileEditing" 
+                       HeightRequest="45"
+                       Keyboard="Chat"/>
+
+                    <StackLayout Orientation="Horizontal" 
+                             FlowDirection="RightToLeft">
+                        <Button Text="Elegir archivo" 
+                            HorizontalOptions="Start" 
+                           />
+                        <Label Text="Archivo adjunto" 
+                           x:Name="lbl2"
+                           VerticalOptions="Center"
+                           Padding="0,0,15,0"
+                           FontSize="16"/>
+                    </StackLayout>
+                    <Button Text="Enviar comentario" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
